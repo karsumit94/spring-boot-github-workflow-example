@@ -1,5 +1,6 @@
 # spring-boot-github-workflow-example
 With GitHub Actions you can easily automate all your software workflows with CI / CD. Build, test, and implement your code right from GitHub.
+The only thing you need to do to enable GitHub Actions is add a YAML file (maven-publish.yml) to the .github / workflows folder in the root of your project.
 ### Sample Workflows file structure:
 ```
 name: Maven Package
@@ -37,3 +38,4 @@ jobs:
           name: demo
           path: target/demo-0.0.1-SNAPSHOT.jar
 ```
+It’s self-explanatory. You can refer to the [official documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) for more details.
