@@ -1,7 +1,3 @@
-# spring-boot-github-workflow-example
-With GitHub Actions you can easily automate all your software workflows with CI / CD. Build, test, and implement your code right from GitHub.
-### Sample Workflows file structure:
-```
 name: Maven Package
 
 on:
@@ -36,4 +32,3 @@ jobs:
         with:
           name: demo
           path: target/demo-0.0.1-SNAPSHOT.jar
-```
