@@ -13,4 +13,9 @@ public class HelloRestController {
     public String sayHello() {
         return "Hello!";
     }
+    @GetMapping("/samplemodel")
+    public SampleModel sampleModel() {
+        SampleModel s = new SampleModel(1001, "Sumit");
+        return s;
+    }
 }
